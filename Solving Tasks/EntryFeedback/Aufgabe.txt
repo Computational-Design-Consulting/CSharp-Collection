@@ -1,0 +1,5 @@
+﻿Aufgabe 4:
+Schreiben Sie ein Programm, das von der Tastatur eine Zahl einliest
+und danach prüft, ob sie größer, kleiner oder gleich 0 ist.
+Außerdem soll ausgegeben werden, ob es sich um eine gerade oder
+eine ungerade Zahl handelt.

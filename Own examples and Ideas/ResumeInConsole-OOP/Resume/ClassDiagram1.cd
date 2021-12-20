@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Resume.EduEntry">
+    <Position X="3.75" Y="6.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIEAAAAAAAAMQAAQAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EduEntry.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Resume.WorkEntry">
+    <Position X="6" Y="6.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAMAAAAAAAAAAIAIAAAAIABBQAAAAA=</HashCode>
+      <FileName>WorkEntry.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Resume.EntryBase">
+    <Position X="4.75" Y="2.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAADAAAAABBAAAAIAAAAAAAAAAAAAIAAAAAI=</HashCode>
+      <FileName>EntryBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Resume.ResumeLibrary">
+    <Position X="0.75" Y="2.25" Width="2.75" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Struct Name="Resume.ResumeLibrary.StoredAddress">
+        <TypeIdentifier>
+          <NewMemberFileName>ResumeLibrary.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>UQBAEFCAMCAAgAEEAAAAAAQAAEkUEAATAEAACCMAGAQ=</HashCode>
+      <FileName>ResumeLibrary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
