@@ -11,7 +11,7 @@ namespace Resume
     ///constants
     private const string name = "Tim";
     private const string lastName = "Fischer";
-    private readonly DateTime dateOfBirth = new DateTime(1980, 01, 01;
+    private readonly DateTime dateOfBirth = new DateTime(1980, 01, 01);
     private const string placeOfBirth = "City";
     private struct StoredAddress
     {
