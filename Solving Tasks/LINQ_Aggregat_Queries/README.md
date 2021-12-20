@@ -1,5 +1,5 @@
 # LINQ Aggregate Queries
-Exercise on different query implementations
+Exercise on different query-implementations
 
 ![Result screenshot](Screenshot%202021-12-20%20040311.png)
 

@@ -1,7 +1,7 @@
 [jump to task](https://github.com/Computational-Design-Consulting/CSharp-Collection/blob/mainCDC/Solving%20Tasks/EntryFeedback/Aufgabe.txt)
 
 # Entry Feedback
-little arithmetic user input feedback program
+A little arithmetic user input feedback program
 
 ![Result screenshot](Screenshot%202021-12-20%20040457.png)
 

@@ -1,5 +1,5 @@
 # Delegate-Method Call
-Exercise on using different method calls as Froms project
+Exercise on using different method calls as Forms-project
 
 ![Result screenshot](Screenshot%202021-12-20%20035842.png)
 

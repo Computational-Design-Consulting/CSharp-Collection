@@ -1,5 +1,3 @@
-
-
 # Zwei Formulare - eine Datenquelle
 Extended connection of two forms to the same data source
 

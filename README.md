@@ -14,10 +14,10 @@ Challenges, projects, educational files
 ## [Own examples and Ideas](https://github.com/Computational-Design-Consulting/CSharp-Collection/tree/mainCDC/Own%20examples%20and%20Ideas)
 
 - [Polymorphism Example](https://github.com/Computational-Design-Consulting/CSharp-Collection/tree/mainCDC/Own%20examples%20and%20Ideas/PolymorphismExample)  
-    extensive reminder of how overriding and overloading work
+    An extensive reminder of how overriding and overloading work
 
 - [Resume as Console](https://github.com/Computational-Design-Consulting/CSharp-Collection/tree/mainCDC/Own%20examples%20and%20Ideas/ResumeInConsole-OOP)  
-    simple program outputting a library of cv entriesas classes in the console   
+    A simple program outputting a library of cv entriesas classes in the console   
 
 
 ## [Solving Tasks](https://github.com/Computational-Design-Consulting/CSharp-Collection/tree/mainCDC/Solving%20Tasks)
@@ -27,10 +27,10 @@ Challenges, projects, educational files
     Draw stations and mark central stations
 
 - [Delegate-Method Call](https://github.com/Computational-Design-Consulting/CSharp-Collection/tree/mainCDC/Solving%20Tasks/Delegate-MethodCall)  
-    Exercise on using different method calls as Froms project
+    Exercise on using different method calls as Forms-project
 
 - [Entry Feedback](https://github.com/Computational-Design-Consulting/CSharp-Collection/tree/mainCDC/Solving%20Tasks/EntryFeedback)  
-    little arithmetic user input feedback program
+    A little arithmetic user input feedback program
 
 - [LINQ Aggregat Queries](https://github.com/Computational-Design-Consulting/CSharp-Collection/tree/mainCDC/Solving%20Tasks/LINQ_Aggregat_Queries)  
     Exercise on different query implementations
@@ -39,7 +39,7 @@ Challenges, projects, educational files
     Directory tree implementation
 
 - [Verzeichnis Inhalt - List View](https://github.com/Computational-Design-Consulting/CSharp-Collection/tree/mainCDC/Solving%20Tasks/VzInhaltListView/AufgabenW5D5_VzInhaltListView)  
-    Read, input, insert using FolderBrowserDialog in ListView item
+    Read, input, insert using `FolderBrowserDialog` in `ListView`-item
 
 - [Zwei Formulare - eine Datenquelle](https://github.com/Computational-Design-Consulting/CSharp-Collection/tree/mainCDC/Solving%20Tasks/ZweiFormulareEineDatenQuelle)  
     Extended connection of two forms to the same data source
