@@ -17,7 +17,7 @@ Challenges, projects, educational files
     An extensive reminder of how overriding and overloading work
 
 - [Resume as Console](https://github.com/Computational-Design-Consulting/CSharp-Collection/tree/mainCDC/Own%20examples%20and%20Ideas/ResumeInConsole-OOP)  
-    A simple program outputting a library of cv entriesas classes in the console   
+    A simple program outputting a library of cv entries as classes in the console   
 
 
 ## [Solving Tasks](https://github.com/Computational-Design-Consulting/CSharp-Collection/tree/mainCDC/Solving%20Tasks)
