@@ -38,7 +38,7 @@ Challenges, projects, educational files
 - [Tree View File](https://github.com/Computational-Design-Consulting/CSharp-Collection/tree/mainCDC/Solving%20Tasks/TreeViewFile_)  
     Directory tree implementation
 
-- [Verzeichnis Inhalt - List View](https://github.com/Computational-Design-Consulting/CSharp-Collection/tree/mainCDC/Solving%20Tasks/VzInhaltListView/AufgabenW5D5_VzInhaltListView)  
+- [Verzeichnis Inhalt - List View](https://github.com/Computational-Design-Consulting/CSharp-Collection/tree/mainCDC/Solving%20Tasks/VzInhaltListView)  
     Read, input, insert using `FolderBrowserDialog` in `ListView`-item
 
 - [Zwei Formulare - eine Datenquelle](https://github.com/Computational-Design-Consulting/CSharp-Collection/tree/mainCDC/Solving%20Tasks/ZweiFormulareEineDatenQuelle)  
