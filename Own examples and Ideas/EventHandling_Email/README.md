@@ -20,7 +20,6 @@ This is handled by the event-class-delegate: "`public delegate void Event1Handle
 To use the handler/delegate, the "`Event1`" is declared in the event-class,
 it then calls the matching method (here 2 different methods with the same signature are used) on the Publisher-instance: "`subscriberEventObject`" that is added in the subscriber-class:
 
-"
 ```csharp
 var subscriberEventObject = new EventPublisherA();
  subscriberEventObject.Event1 += new EventPublisherA.Event1Handler(OnEvent1_GiveConsoleFeedback);
@@ -41,6 +40,6 @@ is also called every time the Event1 has been raised, however it compares the re
 
 The response is another Method(subroutine): "`public static void CreateAndSendMessageWithAttachment()`"
 sending a report email either as plain text or as Html-Email that was produced using/ modifying a template from https://unlayer.com.
-It uses either defined credentials or settings from "App.config" - file to access the account.
+It uses either defined credentials or settings from "`App.config`" - file to access the account.
 The Gmail-Account was set up only for this test-project and requires to be set to allow "`less secure apps access`".
 (found in: https://myaccount.google.com/u/4/security?origin=3&rapt=AEjHL4NrKiGENm9xCx1UBR2Jf4NvoAh61IUF5FSGkOnlvwGpR9zZriS-jdnJ5fz9UFYLN8pyRiYCwukblshTVfnc3V7fbvusVw)
