@@ -19,6 +19,10 @@ Challenges, projects, educational files
 - [Resume as Console](https://github.com/Computational-Design-Consulting/CSharp-Collection/tree/mainCDC/Own%20examples%20and%20Ideas/ResumeInConsole-OOP)  
     A simple program outputting a library of cv entries as classes in the console   
 
+- [Event Handling & Email Notification](https://github.com/Computational-Design-Consulting/CSharp-Collection/tree/mainCDC/Own%20examples%20and%20Ideas/EventHandling_Email)  
+    An exercise to practice creating and subscribing to events.  
+    A Gmail-account has been created to send and receive information from the program about the events     
+
 
 ## [Solving Tasks](https://github.com/Computational-Design-Consulting/CSharp-Collection/tree/mainCDC/Solving%20Tasks)
 
