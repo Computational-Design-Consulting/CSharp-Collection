@@ -4,7 +4,8 @@ A Gmail-account has been created to send and receive information from the progra
 
 [jump to relevant console-app file](https://github.com/Computational-Design-Consulting/CSharp-Collection/blob/mainCDC/Own%20examples%20and%20Ideas/EventHandling_Email/EventHandling_Email/Program.cs)
 
-![Result screenshot](Screenshot%202022-01-09%20213601.png)
+<!-- ![Result screenshot](Screenshot%202022-01-09%20213601.png) -->
+<img src="Screenshot%202022-01-09%20213601.png" alt="class diagram" width="400"/>
 
 ![Result screenshot](Screenshot%202022-01-10%20162838.png)
 
