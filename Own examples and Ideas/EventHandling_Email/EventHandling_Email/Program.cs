@@ -56,8 +56,7 @@ namespace EventHandling_Email
     /// <param name="args"></param>
     static void Main(string[] args)                                           /// Program Entry Point
     {
-      ///user instructions
-      Console.WriteLine(_userInstructions);
+      Console.WriteLine(_userInstructions);                                   /// - user instructions
 
       var subscriberEventObject = new EventPublisherA();                      /// ○ instantiate object of event publisher class type
 
@@ -71,14 +70,15 @@ namespace EventHandling_Email
       subscriberEventObject.Event1 += new EventPublisherA.Event1Handler(OnEvent1_GiveConsoleFeedback);
       subscriberEventObject.Event1 += new EventPublisherA.Event1Handler(OnEvent1_SendMail);
 
-    ExecuteAgain:                                                             ///cosmetics (Jumppoint to repeat execution)
-      /// ○ call publisher-class-method on instance
-      /// --> fires event(which calls the delegate(that uses the event argument))
-      subscriberEventObject.RaiseEvent1();
+      do
+      {
+        /// ○ call publisher-class-method on instance
+        /// --> fires event(which calls the delegate(that uses the event argument))
+        subscriberEventObject.RaiseEvent1();
 
-      Console.WriteLine("Repeat? (y/else)");                                  ///cosmetics
-      if (Console.ReadLine().ToUpper().Contains('Y')) goto ExecuteAgain;      ///cosmetics  
-    }
+        Console.WriteLine("Repeat? (y/else)");                                  ///cosmetics
+      } while (Console.ReadLine().ToUpper().Contains('Y')) ;                    ///repeat execution  
+  }
 
     /// <summary>
     /// Method 1 called by delegate if event is raised (matching delegate)
@@ -98,7 +98,7 @@ namespace EventHandling_Email
     {
       // ○ trigger email if event is raised more than 10 times:
       // - retrieving integer-part from 
-      if (Convert.ToInt32(Regex.Match(eventString, @"\d+").Value) > 9)
+      if (Convert.ToInt32(Regex.Match(eventString, @"\d+").Value) == 10)
       {
         countEmails++;
         if (countEmails < 4)
@@ -106,7 +106,7 @@ namespace EventHandling_Email
           Console.WriteLine("The event has been raised 10 times" +
             "\nDo you want to send a notification by mail? (y/else)");
           if (Console.ReadLine().ToUpper().Contains('Y'))
-          { CreateAndSendMessageWithAttachment(); }
+            CreateAndSendMessageWithAttachment();
         }
       }
     }
@@ -138,7 +138,7 @@ namespace EventHandling_Email
       MailAddress from = new MailAddress("wannatestthismail@gmail.com");
       MailMessage message = new MailMessage(from, to);
       message.Subject = "Update on EventHandling_Email Program";
-      message.Body =txt;
+      message.Body = txt;
       if (_useHTML)
         message.IsBodyHtml = true; //<= enabled if not just using text*
       SmtpClient client = new SmtpClient("smtp.gmail.com", 587);
