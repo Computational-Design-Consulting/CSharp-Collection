@@ -1,14 +1,14 @@
 # Event Handling & Email Notification
-extensive reminder of how overriding and overloading work
-
-![Result screenshot](Screenshot 2022-01-09%20213601.png)
-
-![Result screenshot](Screenshot 2022-01-10 162838.png)
-
-![Result screenshot](Screenshot 2022-01-10 175753.png)
-
+An exercise to practice creating and subscribing to events.  
+A Gmail-account has been created to send and receive information from the program about the events 
 
 [jump to relevant console-app file](https://github.com/Computational-Design-Consulting/CSharp-Collection/blob/mainCDC/Own%20examples%20and%20Ideas/EventHandling_Email/EventHandling_Email/Program.cs)
+
+![Result screenshot](Screenshot%202022-01-09%20213601.png)
+
+![Result screenshot](Screenshot%202022-01-10%20162838.png)
+
+![Result screenshot](Screenshot%202022-01-10%20175753.png)
 <br/>
 <br/>
 
