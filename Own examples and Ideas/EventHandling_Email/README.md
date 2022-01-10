@@ -3,6 +3,11 @@ extensive reminder of how overriding and overloading work
 
 ![Result screenshot](Screenshot 2022-01-09%20213601.png)
 
+![Result screenshot](Screenshot 2022-01-10 162838.png)
+
+![Result screenshot](Screenshot 2022-01-10 175753.png)
+
+
 [jump to relevant console-app file](https://github.com/Computational-Design-Consulting/CSharp-Collection/blob/mainCDC/Own%20examples%20and%20Ideas/EventHandling_Email/EventHandling_Email/Program.cs)
 <br/>
 <br/>

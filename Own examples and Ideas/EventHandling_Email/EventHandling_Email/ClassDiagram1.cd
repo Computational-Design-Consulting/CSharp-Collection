@@ -1,26 +1,26 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="EventHandling_Email.EventPublisherA">
-    <Position X="0.5" Y="0.5" Width="2" />
+    <Position X="0.5" Y="3.5" Width="2" />
     <Compartments>
       <Compartment Name="Nested Types" Collapsed="false" />
     </Compartments>
     <NestedTypes>
       <Delegate Name="EventHandling_Email.EventPublisherA.Event1Handler">
         <TypeIdentifier>
-          <NewMemberFileName>Program.cs</NewMemberFileName>
+          <NewMemberFileName>EventPublisherA.cs</NewMemberFileName>
         </TypeIdentifier>
       </Delegate>
     </NestedTypes>
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAAgAAAAEAAAAAAAAAAAA=</HashCode>
-      <FileName>Program.cs</FileName>
+      <FileName>EventPublisherA.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="EventHandling_Email.Program">
-    <Position X="0.5" Y="4" Width="3" />
+    <Position X="0.5" Y="0.5" Width="3" />
     <TypeIdentifier>
-      <HashCode>AAAAAgAAAAAAAAAAAAAAAACAAAAAAAAIDAAABAAAAAA=</HashCode>
+      <HashCode>AAAAAgAAAAQAAAAAAAAAAACAAAAAAAAIDAAABAEAAAA=</HashCode>
       <FileName>Program.cs</FileName>
     </TypeIdentifier>
   </Class>

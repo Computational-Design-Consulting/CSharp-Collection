@@ -8,37 +8,6 @@ using System.Reflection;
 
 namespace EventHandling_Email
 {
-  /// <summary>
-  /// Publisher Class
-  /// </summary>
-  class EventPublisherA                                       //Publisher Class: (○ >necessary, - >for functionality)
-  {
-    /// <summary>
-    /// instances
-    /// </summary>
-    public static int counter;                                // - counting event-occurances
-
-    /// <summary>
-    /// Delegate pointing to subscriber-method(signature)
-    /// I: string/ O: void
-    /// </summary>
-    /// <param name="messageFromPublisher">expecting string input</param>
-    public delegate void Event1Handler(string messageFromPublisher); // ○ Declare Delegate     
-
-    /// <summary>
-    /// Calls matching method on Publisher instance in subscriber
-    /// </summary>
-    public event Event1Handler Event1;                       // ○ Declare Event of type Delegate
-
-    /// <summary>
-    /// Method used on instance to trigger event and pass method-string-parameter
-    /// </summary>
-    public void RaiseEvent1()
-    {
-      counter++;                                              // - incrementing event-occurance-counter
-      Event1($"\"raised {counter} times\"");                  // ○ Raise event within method
-    }
-  }
 
   /// <summary>
   /// Subscriber Class
@@ -56,7 +25,8 @@ namespace EventHandling_Email
     /// <param name="args"></param>
     static void Main(string[] args)                                           /// Program Entry Point
     {
-      Console.WriteLine(_userInstructions);                                   /// - user instructions
+      //Console.WriteLine(_userInstructions+_addressEmail);                                   /// - user instructions
+      Console.WriteLine(_userInstructionsShort+ _addressEmail);                              /// - user instructions short version
 
       var subscriberEventObject = new EventPublisherA();                      /// ○ instantiate object of event publisher class type
 
@@ -77,8 +47,8 @@ namespace EventHandling_Email
         subscriberEventObject.RaiseEvent1();
 
         Console.WriteLine("Repeat? (y/else)");                                  ///cosmetics
-      } while (Console.ReadLine().ToUpper().Contains('Y')) ;                    ///repeat execution  
-  }
+      } while (Console.ReadLine().ToUpper().Contains('Y'));                     ///repeat execution  
+    }
 
     /// <summary>
     /// Method 1 called by delegate if event is raised (matching delegate)
@@ -175,15 +145,17 @@ namespace EventHandling_Email
       "\nTo test the email functionality the following promt from Method 1:\n" +
       "\"Repeat? (y/else)\"" +
       "\nhas to be answered with \"yes\" (or just \"y\") for ten times.\n" +
-      "This enables Method 2, once the prompt:\n" +
+      "This enables Method 2, once the prompt:\n\n" +
 
+      "\"Do you want to send a notification by mail? (y/else)\"\n" +
+      "has been answered with \"y\", an email is sent to the following test-account:\n\n";
 
-      "\n\"Do you want to send a notification by mail? (y/else)\"\n" +
-      "has been answered with \"y\", an email is sent to the following test-account:\n\n" +
+    static string _userInstructionsShort =
+      $"Responding the following prompts with \"y\" 10 times will trigger" +
+      " an email to the following address:\n\n";
+
+    static string _addressEmail =
       "user: wannatestthismail@gmail.com\n" +
       "password: 7QB6cMgr339hBMM\n\n\n";
   }
-
-
-
 }
