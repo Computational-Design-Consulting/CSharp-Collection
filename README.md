@@ -1,5 +1,6 @@
 # CSharp-Collection
 Challenges, projects, educational files
+ - `Work in Progress !`
 
 
 ## [Exercises](https://github.com/Computational-Design-Consulting/CSharp-Collection/tree/mainCDC/Exercises)
