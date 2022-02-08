@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="EventMailExLibrary.EventPublisherA">
+    <Position X="0.5" Y="0.5" Width="2" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Delegate Name="EventMailExLibrary.EventPublisherA.Event1Handler">
+        <TypeIdentifier>
+          <NewMemberFileName>EventPublisherA.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="EventMailExLibrary.EventPublisherA.AsyncEvent1Handler">
+        <TypeIdentifier>
+          <NewMemberFileName>EventPublisherA.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAIAAAAAAAAAAgAAAAEAAAAAAAAgCAA=</HashCode>
+      <FileName>EventPublisherA.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EventMailExLibrary.SendingMail">
+    <Position X="2.75" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>BABAAAAAAABAAAAAAgAAAAAAAAAAAAAABAAABAAAACI=</HashCode>
+      <FileName>SendingMail.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
