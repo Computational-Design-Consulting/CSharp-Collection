@@ -3,6 +3,7 @@ using System.IO;
 using System.Net;
 using System.Net.Mail;
 using System.Reflection;
+using System.Threading.Tasks;
 
 namespace EventMailExLibrary
 {
@@ -106,6 +107,30 @@ namespace EventMailExLibrary
       try
       {
         client.Send(message);
+        Console.WriteLine("message was sent");
+      }
+      catch (Exception ex)
+      { Console.WriteLine("Mail couldn't be sent because:\n" + ex.ToString()); }
+      Console.WriteLine("CreateAndSendMessageWithAttachment finished.");
+    }
+
+    /// <summary>
+    /// Method 2 - Subroutine sending a report email asynchronously
+    /// either as plain text or as Html-Email
+    /// uses either defined credentials or settings from "App.config" - file
+    /// works with Gmail-Account set up only for this test-project
+    /// requires account settings to be set to allow less secure apps access
+    /// (https://myaccount.google.com/u/4/security?origin=3&rapt=AEjHL4NrKiGENm9xCx1UBR2Jf4NvoAh61IUF5FSGkOnlvwGpR9zZriS-jdnJ5fz9UFYLN8pyRiYCwukblshTVfnc3V7fbvusVw)
+    /// </summary>
+    public static async Task CreateAndSendMessageWithAttachmentAsync()
+    {
+
+      txt = MailContent(UserContentPromt(), ref _useHTML);
+      MailSetup(out message, out client);
+
+      try
+      {
+        await Task.Run(() => { client.Send(message); }); // probably most time intensive task
         Console.WriteLine("message was sent");
       }
       catch (Exception ex)
