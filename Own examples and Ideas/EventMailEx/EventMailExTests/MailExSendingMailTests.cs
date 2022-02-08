@@ -37,9 +37,7 @@ namespace EventMailExTests
       NetworkCredential myCreds =
                 new NetworkCredential(
                       "wannatestthismail@gmail.com", "7QB6cMgr339hBMM");
-      MailMessage message;
-      SmtpClient client;
-      SendingMail.MailSetup(out message, out client);
+      SendingMail.MailSetup(out MailMessage message, out SmtpClient client);
       Assert.Equal(587, client.Port);
       Assert.Equal("smtp.gmail.com", client.Host);
       NetworkCredential cred = 
@@ -55,9 +53,7 @@ namespace EventMailExTests
       NetworkCredential myCreds =
           new NetworkCredential(
                 "wannatestthismail@gmail.com", "7QB6cMgr339hBMM");
-      MailMessage message;
-      SmtpClient client;
-      SendingMail.MailSetup(out message, out client, true);
+      SendingMail.MailSetup(out MailMessage message, out SmtpClient client, true);
       Assert.Equal(587, client.Port);
       Assert.Equal("smtp.gmail.com", client.Host);
       NetworkCredential cred = 
