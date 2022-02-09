@@ -24,6 +24,8 @@ Challenges, projects, educational files
     An exercise to practice creating and subscribing to events.  
     A Gmail-account has been created to send and receive information from the program about the events     
 
+- [Event Handling & Email Notification Extension](https://github.com/Computational-Design-Consulting/CSharp-Collection/tree/mainCDC/Own%20examples%20and%20Ideas/EventMailEx)  
+    Ported project to .Net Core, Refactored classes into Library, uses asynchronous methods/ events and added unit testing
 
 ## [Solving Tasks](https://github.com/Computational-Design-Consulting/CSharp-Collection/tree/mainCDC/Solving%20Tasks)
 
