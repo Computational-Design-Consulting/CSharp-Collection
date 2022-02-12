@@ -1,3 +1,17 @@
+---
+title: CSharp-Collection
+description: A brief overview and descriptions on some study projects
+authors: ['tim_fischer']
+# sdk: ['Yak']
+languages: # empty
+platforms: ['Windows', 'Mac']
+categories: ['CSharp']
+origin: unset
+order: 1
+keywords: ['developer', 'csharp']
+layout: toc-guide-page
+---
+
 # CSharp-Collection
 Challenges, projects, educational files
  - `Work in Progress !`
