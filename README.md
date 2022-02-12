@@ -1,15 +1,11 @@
 ---
-title: CSharp-Collection
-description: A brief overview and descriptions on some study projects
-authors: ['tim_fischer']
-# sdk: ['Yak']
-languages: # empty
-platforms: ['Windows', 'Mac']
-categories: ['CSharp']
-origin: unset
-order: 1
-keywords: ['developer', 'csharp']
-layout: toc-guide-page
+title: "Habits"
+output:
+  html_document:
+    toc: true
+    toc_float:
+      collapsed: false
+      smooth_scroll: false
 ---
 
 # CSharp-Collection
