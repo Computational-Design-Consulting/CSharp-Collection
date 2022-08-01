@@ -53,19 +53,18 @@ namespace LINQ_Aggregat_Queries
       }
 
       //methods:
-      private double[] StringToDoubleArr(string[] strArr)      //helper
-      { return strArr.Select(str => double.Parse(str)).ToArray(); }
-      private double Anzahl(string[] strArr)                   //count
-      { return StringToDoubleArr(strArr).Count(); }
-      private double Summe(string[] strArr)                    //sum
-      { return StringToDoubleArr(strArr).Sum(); }
-      private double Mittelwert(string[] strArr)               //av
-      { return StringToDoubleArr(strArr).Average(); }
-      private double Maximum(string[] strArr)                  //max
-      { return StringToDoubleArr(strArr).Max(); }
-      private double Minimum(string[] strArr)                  //min
-      { return StringToDoubleArr(strArr).Min(); }
-
+      private double[] StringToDoubleArr(string[] strArr) =>   //helper
+         strArr.Select(str => double.Parse(str)).ToArray(); 
+      private double Anzahl(string[] strArr) =>                //count
+         StringToDoubleArr(strArr).Count(); 
+      private double Summe(string[] strArr) =>                 //sum
+         StringToDoubleArr(strArr).Sum(); 
+      private double Mittelwert(string[] strArr) =>            //av
+         StringToDoubleArr(strArr).Average(); 
+      private double Maximum(string[] strArr) =>               //max
+         StringToDoubleArr(strArr).Max(); 
+      private double Minimum(string[] strArr) =>               //min
+         StringToDoubleArr(strArr).Min(); 
 
    }
 }

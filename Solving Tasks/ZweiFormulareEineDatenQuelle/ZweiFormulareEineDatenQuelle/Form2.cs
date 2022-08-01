@@ -16,10 +16,10 @@ namespace ZweiFormulareEineDatenQuelle
       { InitializeComponent(); }
 
       // der Übergabeparameter ist die aktuelle Zeile
-      public void EditKunde(DataRowView drv)
+      public void EditKunde(DataRowView dataRowView)
       {
          //wenn ein neuer Datensatz hinzugefügt wird
-         if (drv.Row.RowState == DataRowState.Detached) // detached = abgetrennt
+         if (dataRowView.Row.RowState == DataRowState.Detached) // detached = abgetrennt
          {
             textBox1.Text = "PQNRP";
             textBox2.Text = "Empire";
@@ -30,29 +30,29 @@ namespace ZweiFormulareEineDatenQuelle
          else //wenn ein vorhandener Datensatz geändert wird
          {
             //anzeigen:
-            textBox1.Text = drv["KundenCode"].ToString();
-            textBox2.Text = drv["Firma"].ToString();
-            textBox3.Text = drv["Kontaktperson"].ToString();
-            textBox4.Text = drv["Funktion"].ToString();
-            textBox5.Text = drv["Ort"].ToString();
+            textBox1.Text = dataRowView["KundenCode"].ToString();
+            textBox2.Text = dataRowView["Firma"].ToString();
+            textBox3.Text = dataRowView["Kontaktperson"].ToString();
+            textBox4.Text = dataRowView["Funktion"].ToString();
+            textBox5.Text = dataRowView["Ort"].ToString();
          }
          if (this.ShowDialog() == DialogResult.OK) // "OK"
          {
             //speichern:
-            drv.BeginEdit();
-            drv["KundenCode"] = textBox1.Text;
-            drv["Firma"] = textBox2.Text;
-            drv["Kontaktperson"] = textBox3.Text;
-            drv["Funktion"] = textBox4.Text;
-            drv["Ort"] = textBox5.Text;
-            drv.EndEdit();
+            dataRowView.BeginEdit();
+            dataRowView["KundenCode"] = textBox1.Text;
+            dataRowView["Firma"] = textBox2.Text;
+            dataRowView["Kontaktperson"] = textBox3.Text;
+            dataRowView["Funktion"] = textBox4.Text;
+            dataRowView["Ort"] = textBox5.Text;
+            dataRowView.EndEdit();
          }
          else // "Abbrechen"
-            drv.CancelEdit();
+            dataRowView.CancelEdit();
       }
-      private void button1_Click(object sender, EventArgs e)
-      { DialogResult = DialogResult.OK; }
-      private void button2_Click(object sender, EventArgs e)
-      { DialogResult = DialogResult.Cancel; }
+      private void button1_Click(object sender, EventArgs e) =>
+         DialogResult = DialogResult.OK;
+      private void button2_Click(object sender, EventArgs e) =>
+         DialogResult = DialogResult.Cancel;
    }
 }
