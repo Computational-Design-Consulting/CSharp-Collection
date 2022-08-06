@@ -40,6 +40,9 @@ Challenges, projects, educational files
 - [Entry Feedback](https://github.com/Computational-Design-Consulting/CSharp-Collection/tree/mainCDC/Solving%20Tasks/EntryFeedback)  
     A little arithmetic user input feedback program
 
+- [Graph Project](/Solving%20Tasks/GraphProject)
+    Take Home Interview Assignement - small console application in .Net core creating and manipulating undirected graph
+
 - [LINQ Aggregat Queries](https://github.com/Computational-Design-Consulting/CSharp-Collection/tree/mainCDC/Solving%20Tasks/LINQ_Aggregat_Queries)  
     Exercise on different query implementations
 
@@ -51,3 +54,4 @@ Challenges, projects, educational files
 
 - [Zwei Formulare - eine Datenquelle](https://github.com/Computational-Design-Consulting/CSharp-Collection/tree/mainCDC/Solving%20Tasks/ZweiFormulareEineDatenQuelle)  
     Extended connection of two forms to the same data source
+
