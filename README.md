@@ -4,40 +4,40 @@ Challenges, projects, educational files
  - `Work in Progress !`
 
 
-## [Exercises](https://github.com/Computational-Design-Consulting/CSharp-Collection/tree/mainCDC/Exercises)
+## [Exercises](https://github.com/Computational-Design-Consulting/CSharp-Collection/tree/mainCDC/Exercises)  
 
 - [Hello World](https://github.com/Computational-Design-Consulting/CSharp-Collection/tree/mainCDC/Exercises/HelloWorld)  
-    1st Testfile (setting up this collection)
+    1st Testfile (setting up this collection)  
 
 - [Schieberegler](https://github.com/Computational-Design-Consulting/CSharp-Collection/tree/mainCDC/Exercises/Schieberegler)  
     Simple RGB Contoller with WinForm
 
-- [DataBaseOperations](/Exercises/DataBaseOperations)
+- [DataBaseOperations](/Exercises/DataBaseOperations)  
     CRUD Operations on access db using OleDbConnection.ConnectionString
 
-- [DriveSizeSnippets](/Exercises/DriveSizeSnippets/)
+- [DriveSizeSnippets](/Exercises/DriveSizeSnippets/)  
     .TotalSize, .driveInfo.AvailableFreeSpace, .TotalFreeSpace
 
-- [DriveTypeSwitch](/Exercises/DriveTypeSwitch/)
+- [DriveTypeSwitch](/Exercises/DriveTypeSwitch/)  
     Console app showing different Infos via Switch on DriveInfo Properties
 
-- [ExtensionMethods](/Exercises/ExtensionMethods/)
+- [ExtensionMethods](/Exercises/ExtensionMethods/)  
     Console app and top level static classes containing extension methods for math operations
 
-- [FileSystemWatcher](/Exercises/FileSystemWatcher/)
+- [FileSystemWatcher](/Exercises/FileSystemWatcher/)  
     Console app watching a folder and handling via displaying change and rename operations
 
-- [OperatorOverloading](/Exercises/OperatorOverloading/)
+- [OperatorOverloading](/Exercises/OperatorOverloading/)  
     Console app overloding the addition operator: '+' for custom Complex class
 
-- [OperatorOverloadingVectors](/Exercises/OperatorOverloadingVectors/)
+- [OperatorOverloadingVectors](/Exercises/OperatorOverloadingVectors/)  
     Overloading arithmetic, logical and conversion operators (implicit & explicit) for custom vector class in console app
 
-- [UnitTestingCalculator](/Exercises/UnitTestingCalculator/)
+- [UnitTestingCalculator](/Exercises/UnitTestingCalculator/)  
     Testing custom calculator methods and class hirarchy via MSTest.TestFramework
 
 
-## [Own examples and Ideas](https://github.com/Computational-Design-Consulting/CSharp-Collection/tree/mainCDC/Own%20examples%20and%20Ideas)
+## [Own examples and Ideas](https://github.com/Computational-Design-Consulting/CSharp-Collection/tree/mainCDC/Own%20examples%20and%20Ideas)  
 
 - [Polymorphism Example](https://github.com/Computational-Design-Consulting/CSharp-Collection/tree/mainCDC/Own%20examples%20and%20Ideas/PolymorphismExample)  
     An extensive reminder of how overriding and overloading work
@@ -53,7 +53,7 @@ Challenges, projects, educational files
     Ported project to .Net Core, Refactored classes into Library, uses asynchronous methods/ events and added unit testing
 
 
-## [Solving Tasks](https://github.com/Computational-Design-Consulting/CSharp-Collection/tree/mainCDC/Solving%20Tasks)
+## [Solving Tasks](https://github.com/Computational-Design-Consulting/CSharp-Collection/tree/mainCDC/Solving%20Tasks)  
 
 - [Bahnhoefe Zeichenen](https://github.com/Computational-Design-Consulting/CSharp-Collection/tree/mainCDC/Solving%20Tasks/BahnhoefeZeichenen)  
     Import CSV file containing all german railway stations   
@@ -65,7 +65,7 @@ Challenges, projects, educational files
 - [Entry Feedback](https://github.com/Computational-Design-Consulting/CSharp-Collection/tree/mainCDC/Solving%20Tasks/EntryFeedback)  
     A little arithmetic user input feedback program
 
-- [Graph Project](/Solving%20Tasks/GraphProject)
+- [Graph Project](/Solving%20Tasks/GraphProject)  
     Take Home Interview Assignement - small console application in .Net core creating and manipulating undirected graph
 
 - [LINQ Aggregat Queries](https://github.com/Computational-Design-Consulting/CSharp-Collection/tree/mainCDC/Solving%20Tasks/LINQ_Aggregat_Queries)  
