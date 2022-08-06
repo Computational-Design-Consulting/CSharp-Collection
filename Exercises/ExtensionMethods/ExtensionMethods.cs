@@ -5,16 +5,15 @@ using System.Text;
 using System.Threading.Tasks;
 
 //More explaination:
-//Normalerweise erlaubt eine objektorientierte Programmiersprache das Erweitern von
-//Klassen durch Vererbung. Bereits C# 3.0 führte aber eine neue Syntax ein, die das direkte
-//Hinzufügen neuer Methoden zu einer vorhandenen Klasse erlaubt. Diese sogenannten
-//Erweiterungsmethoden werden als statische Methoden in einer neuen statischen Klasse
-//implementiert und können dann wie eine normale Methode (d.h.Instanzmethode) des
-//erweiterten Datentyps aufgerufen werden. Um eine Methode als Erweiterungsmethode zu
-//deklarieren, wird vor dem ersten Parameter das Schlüsselwort this angegeben. Der Argumenttyp
-//des ersten Parameters bezieht sich auf die zu erweiternde Klasse bzw.Struktur.
-//Wird die Erweiterungsmethode dann aufgerufen, übergibt der Compiler die Instanz des
-//erweiterten Typs als erstes Argument an die Methode.
+/* Typically, an object-oriented programming language allows classes to be extended through inheritance.
+ * However, C# 3.0 already introduced a new syntax that allows new methods to be added directly to an existing class.
+ * These so-called extension methods are implemented as static methods in a new static class
+ * and can then be called like a normal method (i.e. instance method) of the extended data type.
+ * To declare a method as an extension method, the keyword this is specified before the first parameter.
+ * The argument type of the first parameter refers to the class or structure to be extended.
+ * When the extension method is then called, the compiler passes the instance of the extended type
+ * as the first argument to the method.
+ */
 
 namespace ExtensionMethods
 {

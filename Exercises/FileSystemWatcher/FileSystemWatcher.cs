@@ -46,16 +46,10 @@ namespace E0_FileSystemWatcher
             while (true) { Thread.Sleep(1000); }
         }
 
-        static void watcher_Change(object sender, FileSystemEventArgs e)
-        {
-            Console.WriteLine("{0} changed({1})", e.Name, e.ChangeType);
-        }
+        static void watcher_Change(object sender, FileSystemEventArgs e)=>
+            Console.WriteLine($"{e.Name} changed({e.ChangeType})");
 
-
-        static void watcher_Renamed(object sender, RenamedEventArgs e)
-        {
-            Console.WriteLine("{0} renamed to {1}", e.OldFullPath, e.FullPath);
-        }
-
+        static void watcher_Renamed(object sender, RenamedEventArgs e)=>
+            Console.WriteLine($"{e.OldFullPath} renamed to {e.FullPath}");
     }
 }
