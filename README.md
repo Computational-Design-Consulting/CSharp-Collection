@@ -12,6 +12,30 @@ Challenges, projects, educational files
 - [Schieberegler](https://github.com/Computational-Design-Consulting/CSharp-Collection/tree/mainCDC/Exercises/Schieberegler)  
     Simple RGB Contoller with WinForm
 
+- [DataBaseOperations](/Exercises/DataBaseOperations)
+    CRUD Operations on access db using OleDbConnection.ConnectionString
+
+- [DriveSizeSnippets](/Exercises/DriveSizeSnippets/)
+    .TotalSize, .driveInfo.AvailableFreeSpace, .TotalFreeSpace
+
+- [DriveTypeSwitch](/Exercises/DriveTypeSwitch/)
+    Console app showing different Infos via Switch on DriveInfo Properties
+
+- [ExtensionMethods](/Exercises/ExtensionMethods/)
+    Console app and top level static classes containing extension methods for math operations
+
+- [FileSystemWatcher](/Exercises/FileSystemWatcher/)
+    Console app watching a folder and handling via displaying change and rename operations
+
+- [OperatorOverloading](/Exercises/OperatorOverloading/)
+    Console app overloding the addition operator: '+' for custom Complex class
+
+- [OperatorOverloadingVectors](/Exercises/OperatorOverloadingVectors/)
+    Overloading arithmetic, logical and conversion operators (implicit & explicit) for custom vector class in console app
+
+- [UnitTestingCalculator](/Exercises/UnitTestingCalculator/)
+    Testing custom calculator methods and class hirarchy via MSTest.TestFramework
+
 
 ## [Own examples and Ideas](https://github.com/Computational-Design-Consulting/CSharp-Collection/tree/mainCDC/Own%20examples%20and%20Ideas)
 
@@ -27,6 +51,7 @@ Challenges, projects, educational files
 
 - [Event Handling & Email Notification Extension](https://github.com/Computational-Design-Consulting/CSharp-Collection/tree/mainCDC/Own%20examples%20and%20Ideas/EventMailEx)  
     Ported project to .Net Core, Refactored classes into Library, uses asynchronous methods/ events and added unit testing
+
 
 ## [Solving Tasks](https://github.com/Computational-Design-Consulting/CSharp-Collection/tree/mainCDC/Solving%20Tasks)
 
@@ -54,4 +79,3 @@ Challenges, projects, educational files
 
 - [Zwei Formulare - eine Datenquelle](https://github.com/Computational-Design-Consulting/CSharp-Collection/tree/mainCDC/Solving%20Tasks/ZweiFormulareEineDatenQuelle)  
     Extended connection of two forms to the same data source
-
